@@ -89,5 +89,24 @@ body{
 }
 
 
+.dispositivos{
+    text-align: center;
+}
 
+.dispositivos__titulo{
+    font-size: 48px;
+    color:  var(--branco-principal);
+}
+
+.dispositivos__lista{
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    margin: 5rem 0;
+}
+
+.lista_item{
+    font-size: 2rem;
+    color:  var(--branco-principal);
+}
 
