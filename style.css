@@ -36,7 +36,7 @@ body{
     align-items: center;
 }
 
-.contai__caixa{
+.container__caixa{
     margin: 6em;;
 }
 
@@ -89,6 +89,35 @@ body{
     color: var(--cinza-secundario);
 }
 
+.terciario{
+    align-items: center;
+    margin: 0 10em 15em 10em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.telas__texto{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2em;
+    color: var(--branco-principal);
+}
+
+.telas__imagem{
+    padding-left: 10em;
+}
+
+.botao__telas{
+    margin-top: 1em;
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 16px;
+    color: var(--branco-principal);
+    margin-bottom: 1em;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
 
 .dispositivos{
     text-align: center;
@@ -96,6 +125,7 @@ body{
 
 .dispositivos__titulo{
     font-size: 48px;
+    font-weight: 700;
     color:  var(--branco-principal);
 }
 
